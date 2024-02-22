@@ -1,0 +1,128 @@
+[20] Process 0 arrives
+[20] Current Ready Queue: ['Proccess 0, Arrive 20: [5, 5, 5]:5:1.0']
+[20] Dispatching process 0
+[21] Process 1 arrives
+[25] Process 0 is blocking for 5 time units
+[25] Current Ready Queue: ['Proccess 1, Arrive 21: [17, 20, 5]:17:1.2352941176470589']
+[25] Dispatching process 1
+[30] Process 2 arrives
+[30] Process 0 unblocks
+[42] Process 1 is blocking for 20 time units
+[42] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.12', 'Proccess 0, Arrive 20: [5]:5.0:3.4']
+[42] Dispatching process 0
+[47] Process 0 is exiting
+[47] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.17']
+[47] Dispatching process 2
+[62] Process 1 unblocks
+[115] Process 3 arrives
+[147] Process 2 is blocking for 100 time units
+[147] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.0', 'Proccess 3, Arrive 115: [5, 5, 5]:5:7.4']
+[147] Dispatching process 3
+[152] Process 3 is blocking for 5 time units
+[152] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.294117647058823']
+[152] Dispatching process 1
+[157] Process 1 is exiting
+[157] Process 3 unblocks
+[157] Current Ready Queue: ['Proccess 3, Arrive 115: [5]:5.0:1.0']
+[157] Dispatching process 3
+[162] Process 3 is exiting
+[247] Process 2 unblocks
+[247] Current Ready Queue: ['Proccess 2, Arrive 30: [100]:100.0:1.0']
+[247] Dispatching process 2
+[347] Process 2 is exiting
+[20] Process 0 arrives
+[20] Current Ready Queue: ['Proccess 0, Arrive 20: [5, 5, 5]:5:1.0']
+[20] Dispatching process 0
+[21] Process 1 arrives
+[25] Process 0 is blocking for 5 time units
+[25] Current Ready Queue: ['Proccess 1, Arrive 21: [17, 20, 5]:17:1.2352941176470589']
+[25] Dispatching process 1
+[30] Process 2 arrives
+[30] Process 0 unblocks
+[42] Process 1 is blocking for 20 time units
+[42] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.12', 'Proccess 0, Arrive 20: [5]:5.0:3.4']
+[42] Dispatching process 0
+[47] Process 0 is exiting
+[47] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.17']
+[47] Dispatching process 2
+[62] Process 1 unblocks
+[115] Process 3 arrives
+[147] Process 2 is blocking for 100 time units
+[147] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.0', 'Proccess 3, Arrive 115: [5, 5, 5]:5:7.4']
+[147] Dispatching process 3
+[152] Process 3 is blocking for 5 time units
+[152] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.294117647058823']
+[152] Dispatching process 1
+[157] Process 1 is exiting
+[157] Process 3 unblocks
+[157] Current Ready Queue: ['Proccess 3, Arrive 115: [5]:5.0:1.0']
+[157] Dispatching process 3
+[162] Process 3 is exiting
+[247] Process 2 unblocks
+[247] Current Ready Queue: ['Proccess 2, Arrive 30: [100]:100.0:1.0']
+[247] Dispatching process 2
+[347] Process 2 is exiting
+[20] Process 0 arrives
+[20] Current Ready Queue: ['Proccess 0, Arrive 20: [5, 5, 5]:5:1.0']
+[20] Dispatching process 0
+[21] Process 1 arrives
+[25] Process 0 is blocking for 5 time units
+[25] Current Ready Queue: ['Proccess 1, Arrive 21: [17, 20, 5]:17:1.2352941176470589']
+[25] Dispatching process 1
+[30] Process 2 arrives
+[30] Process 0 unblocks
+[42] Process 1 is blocking for 20 time units
+[42] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.12', 'Proccess 0, Arrive 20: [5]:5.0:3.4']
+[42] Dispatching process 0
+[47] Process 0 is exiting
+[47] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.17']
+[47] Dispatching process 2
+[62] Process 1 unblocks
+[115] Process 3 arrives
+[147] Process 2 is blocking for 100 time units
+[147] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.0', 'Proccess 3, Arrive 115: [5, 5, 5]:5:7.4']
+[147] Dispatching process 3
+[152] Process 3 is blocking for 5 time units
+[152] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.294117647058823']
+[152] Dispatching process 1
+[157] Process 1 is exiting
+[157] Process 3 unblocks
+[157] Current Ready Queue: ['Proccess 3, Arrive 115: [5]:5.0:1.0']
+[157] Dispatching process 3
+[162] Process 3 is exiting
+[247] Process 2 unblocks
+[247] Current Ready Queue: ['Proccess 2, Arrive 30: [100]:100.0:1.0']
+[247] Dispatching process 2
+[347] Process 2 is exiting
+[20] Process 0 arrives
+[20] Current Ready Queue: ['Proccess 0, Arrive 20: [5, 5, 5]:5:1.0']
+[20] Dispatching process 0
+[21] Process 1 arrives
+[25] Process 0 is blocking for 5 time units
+[25] Current Ready Queue: ['Proccess 1, Arrive 21: [17, 20, 5]:17:1.2352941176470589']
+[25] Dispatching process 1
+[30] Process 2 arrives
+[30] Process 0 unblocks
+[42] Process 1 is blocking for 20 time units
+[42] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.12', 'Proccess 0, Arrive 20: [5]:5.0:3.4']
+[42] Dispatching process 0
+[47] Process 0 is exiting
+[47] Current Ready Queue: ['Proccess 2, Arrive 30: [100, 100, 100]:100:1.17']
+[47] Dispatching process 2
+[62] Process 1 unblocks
+[115] Process 3 arrives
+[147] Process 2 is blocking for 100 time units
+[147] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.0', 'Proccess 3, Arrive 115: [5, 5, 5]:5:7.4']
+[147] Dispatching process 3
+[152] Process 3 is blocking for 5 time units
+[152] Current Ready Queue: ['Proccess 1, Arrive 21: [5]:17.0:6.294117647058823']
+[152] Dispatching process 1
+[157] Process 1 is exiting
+[157] Process 3 unblocks
+[157] Current Ready Queue: ['Proccess 3, Arrive 115: [5]:5.0:1.0']
+[157] Dispatching process 3
+[162] Process 3 is exiting
+[247] Process 2 unblocks
+[247] Current Ready Queue: ['Proccess 2, Arrive 30: [100]:100.0:1.0']
+[247] Dispatching process 2
+[347] Process 2 is exiting

@@ -1,0 +1,48 @@
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]:20:1.0']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.14', 'Proccess 2, Arrive 8: [2]:2:7.5']
+[21] Dispatching process 2
+[23] Process 2 is exiting
+[23] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.16']
+[23] Dispatching process 1
+[123] Process 1 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]:20:1.0']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.14', 'Proccess 2, Arrive 8: [2]:2:7.5']
+[21] Dispatching process 2
+[23] Process 2 is exiting
+[23] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.16']
+[23] Dispatching process 1
+[123] Process 1 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]:20:1.0']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.14', 'Proccess 2, Arrive 8: [2]:2:7.5']
+[21] Dispatching process 2
+[23] Process 2 is exiting
+[23] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.16']
+[23] Dispatching process 1
+[123] Process 1 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]:20:1.0']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.14', 'Proccess 2, Arrive 8: [2]:2:7.5']
+[21] Dispatching process 2
+[23] Process 2 is exiting
+[23] Current Ready Queue: ['Proccess 1, Arrive 7: [100]:100:1.16']
+[23] Dispatching process 1
+[123] Process 1 is exiting

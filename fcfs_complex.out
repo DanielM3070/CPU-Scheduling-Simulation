@@ -1,0 +1,39 @@
+Process 0
+    Start Time: 0
+    Finish Time: 190
+    Service Time: 22
+    Turnaround Time: 190
+    Normalized Turnaround Time: 8.636363636363637
+    Average Response Time: 80.5
+Process 1
+    Start Time: 10
+    Finish Time: 216
+    Service Time: 154
+    Turnaround Time: 213
+    Normalized Turnaround Time: 1.3831168831168832
+    Average Response Time: 18.333333333333332
+Process 2
+    Start Time: 110
+    Finish Time: 230
+    Service Time: 11
+    Turnaround Time: 223
+    Normalized Turnaround Time: 20.272727272727273
+    Average Response Time: 50.75
+Process 3
+    Start Time: 113
+    Finish Time: 212
+    Service Time: 30
+    Turnaround Time: 201
+    Normalized Turnaround Time: 6.7
+    Average Response Time: 75.5
+Process 4
+    Start Time: 133
+    Finish Time: 232
+    Service Time: 11
+    Turnaround Time: 142
+    Normalized Turnaround Time: 12.909090909090908
+    Average Response Time: 30.5
+--------------------------------------------------------------------------------
+Mean Turnaround Time: 193.8
+Mean Normalized Turnaround Time: 9.98025974025974
+Mean Response Time: 51.11666666666666

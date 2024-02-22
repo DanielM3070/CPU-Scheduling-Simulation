@@ -1,0 +1,1106 @@
+[0] Process 0 arrives
+[0] Current Ready Queue: [['Proccess 0, Arrive 0: [10, 3, 10, 4, 2] : 0'], [], []]
+[0] Dispatching process 0
+[3] Process 0 Timed out
+[3] Process 1 arrives
+[3] Current Ready Queue: [['Proccess 1, Arrive 3: [100, 2, 50, 2, 4] : 0'], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2] : 1'], []]
+[3] Dispatching process 1
+[6] Process 1 Timed out
+[6] Current Ready Queue: [[], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2] : 1', 'Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1'], []]
+[6] Dispatching process 0
+[7] Process 2 arrives
+[9] Process 0 Timed out
+[9] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 2, 2, 1, 3, 1, 2, 5, 1] : 0'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[9] Dispatching process 2
+[11] Process 3 arrives
+[12] Process 2 is blocking for 2 time units
+[12] Current Ready Queue: [['Proccess 3, Arrive 11: [10, 20, 20] : 0'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[12] Dispatching process 3
+[14] Process 2 unblocks
+[15] Process 3 Timed out
+[15] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 1, 3, 1, 2, 5, 1] : 0'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1', 'Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[15] Dispatching process 2
+[17] Process 2 is blocking for 1 time units
+[17] Current Ready Queue: [[], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1', 'Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[17] Dispatching process 1
+[18] Process 2 unblocks
+[20] Process 1 Timed out
+[20] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 1, 2, 5, 1] : 0'], ['Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2']]
+[20] Dispatching process 2
+[23] Process 2 is blocking for 1 time units
+[23] Current Ready Queue: [[], ['Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2']]
+[23] Dispatching process 3
+[24] Process 2 unblocks
+[26] Process 3 Timed out
+[26] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 5, 1] : 0'], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [4, 20, 20] : 2']]
+[26] Dispatching process 2
+[28] Process 2 is blocking for 5 time units
+[28] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [4, 20, 20] : 2']]
+[28] Dispatching process 0
+[31] Process 0 Timed out
+[31] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [4, 20, 20] : 2', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2']]
+[31] Dispatching process 1
+[33] Process 2 unblocks
+[34] Process 1 Timed out
+[34] Current Ready Queue: [['Proccess 2, Arrive 7: [1] : 0'], [], ['Proccess 3, Arrive 11: [4, 20, 20] : 2', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2']]
+[34] Dispatching process 2
+[35] Process 2 is exiting
+[35] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [4, 20, 20] : 2', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2']]
+[35] Dispatching process 3
+[38] Process 3 Timed out
+[38] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [1, 20, 20] : 2']]
+[38] Dispatching process 0
+[39] Process 0 is blocking for 3 time units
+[39] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [1, 20, 20] : 2']]
+[39] Dispatching process 1
+[42] Process 1 Timed out
+[42] Process 0 unblocks
+[42] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [1, 20, 20] : 2', 'Proccess 1, Arrive 3: [88, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [10, 4, 2] : 2']]
+[42] Dispatching process 3
+[43] Process 3 is blocking for 20 time units
+[43] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [88, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [10, 4, 2] : 2']]
+[43] Dispatching process 1
+[46] Process 1 Timed out
+[46] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [10, 4, 2] : 2', 'Proccess 1, Arrive 3: [85, 2, 50, 2, 4] : 2']]
+[46] Dispatching process 0
+[49] Process 0 Timed out
+[49] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [85, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [7, 4, 2] : 2']]
+[49] Dispatching process 1
+[52] Process 1 Timed out
+[52] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [7, 4, 2] : 2', 'Proccess 1, Arrive 3: [82, 2, 50, 2, 4] : 2']]
+[52] Dispatching process 0
+[55] Process 0 Timed out
+[55] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [82, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [4, 4, 2] : 2']]
+[55] Dispatching process 1
+[58] Process 1 Timed out
+[58] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 4, 2] : 2', 'Proccess 1, Arrive 3: [79, 2, 50, 2, 4] : 2']]
+[58] Dispatching process 0
+[61] Process 0 Timed out
+[61] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [79, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [1, 4, 2] : 2']]
+[61] Dispatching process 1
+[63] Process 3 unblocks
+[64] Process 1 Timed out
+[64] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 4, 2] : 2', 'Proccess 3, Arrive 11: [20] : 2', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4] : 2']]
+[64] Dispatching process 0
+[65] Process 0 is blocking for 4 time units
+[65] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [20] : 2', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4] : 2']]
+[65] Dispatching process 3
+[68] Process 3 Timed out
+[68] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [76, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [17] : 2']]
+[68] Dispatching process 1
+[69] Process 0 unblocks
+[71] Process 1 Timed out
+[71] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [17] : 2', 'Proccess 0, Arrive 0: [2] : 2', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4] : 2']]
+[71] Dispatching process 3
+[74] Process 3 Timed out
+[74] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [2] : 2', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [14] : 2']]
+[74] Dispatching process 0
+[76] Process 0 is exiting
+[76] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [73, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [14] : 2']]
+[76] Dispatching process 1
+[79] Process 1 Timed out
+[79] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [14] : 2', 'Proccess 1, Arrive 3: [70, 2, 50, 2, 4] : 2']]
+[79] Dispatching process 3
+[82] Process 3 Timed out
+[82] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [70, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [11] : 2']]
+[82] Dispatching process 1
+[85] Process 1 Timed out
+[85] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [11] : 2', 'Proccess 1, Arrive 3: [67, 2, 50, 2, 4] : 2']]
+[85] Dispatching process 3
+[88] Process 3 Timed out
+[88] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [67, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [8] : 2']]
+[88] Dispatching process 1
+[90] Process 4 arrives
+[91] Process 1 Timed out
+[91] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 2, 2, 1, 3, 1, 2, 5, 1] : 0'], [], ['Proccess 3, Arrive 11: [8] : 2', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2']]
+[91] Dispatching process 4
+[94] Process 4 is blocking for 2 time units
+[94] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [8] : 2', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2']]
+[94] Dispatching process 3
+[96] Process 4 unblocks
+[97] Process 3 Timed out
+[97] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 1, 3, 1, 2, 5, 1] : 0'], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [5] : 2']]
+[97] Dispatching process 4
+[99] Process 4 is blocking for 1 time units
+[99] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [5] : 2']]
+[99] Dispatching process 1
+[100] Process 4 unblocks
+[102] Process 1 Timed out
+[102] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 1, 2, 5, 1] : 0'], [], ['Proccess 3, Arrive 11: [5] : 2', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2']]
+[102] Dispatching process 4
+[105] Process 4 is blocking for 1 time units
+[105] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [5] : 2', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2']]
+[105] Dispatching process 3
+[106] Process 4 unblocks
+[108] Process 3 Timed out
+[108] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 5, 1] : 0'], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [2] : 2']]
+[108] Dispatching process 4
+[110] Process 4 is blocking for 5 time units
+[110] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [2] : 2']]
+[110] Dispatching process 1
+[113] Process 1 Timed out
+[113] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [2] : 2', 'Proccess 1, Arrive 3: [58, 2, 50, 2, 4] : 2']]
+[113] Dispatching process 3
+[115] Process 3 is exiting
+[115] Process 4 unblocks
+[115] Current Ready Queue: [['Proccess 4, Arrive 90: [1] : 0'], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4] : 2']]
+[115] Dispatching process 4
+[116] Process 4 is exiting
+[116] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4] : 2']]
+[116] Dispatching process 1
+[119] Process 1 Timed out
+[119] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [55, 2, 50, 2, 4] : 2']]
+[119] Dispatching process 1
+[122] Process 1 Timed out
+[122] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [52, 2, 50, 2, 4] : 2']]
+[122] Dispatching process 1
+[125] Process 1 Timed out
+[125] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [49, 2, 50, 2, 4] : 2']]
+[125] Dispatching process 1
+[128] Process 1 Timed out
+[128] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [46, 2, 50, 2, 4] : 2']]
+[128] Dispatching process 1
+[131] Process 1 Timed out
+[131] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [43, 2, 50, 2, 4] : 2']]
+[131] Dispatching process 1
+[134] Process 1 Timed out
+[134] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [40, 2, 50, 2, 4] : 2']]
+[134] Dispatching process 1
+[137] Process 1 Timed out
+[137] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [37, 2, 50, 2, 4] : 2']]
+[137] Dispatching process 1
+[140] Process 1 Timed out
+[140] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [34, 2, 50, 2, 4] : 2']]
+[140] Dispatching process 1
+[143] Process 1 Timed out
+[143] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [31, 2, 50, 2, 4] : 2']]
+[143] Dispatching process 1
+[146] Process 1 Timed out
+[146] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [28, 2, 50, 2, 4] : 2']]
+[146] Dispatching process 1
+[149] Process 1 Timed out
+[149] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [25, 2, 50, 2, 4] : 2']]
+[149] Dispatching process 1
+[152] Process 1 Timed out
+[152] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [22, 2, 50, 2, 4] : 2']]
+[152] Dispatching process 1
+[155] Process 1 Timed out
+[155] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [19, 2, 50, 2, 4] : 2']]
+[155] Dispatching process 1
+[158] Process 1 Timed out
+[158] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [16, 2, 50, 2, 4] : 2']]
+[158] Dispatching process 1
+[161] Process 1 Timed out
+[161] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [13, 2, 50, 2, 4] : 2']]
+[161] Dispatching process 1
+[164] Process 1 Timed out
+[164] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [10, 2, 50, 2, 4] : 2']]
+[164] Dispatching process 1
+[167] Process 1 Timed out
+[167] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [7, 2, 50, 2, 4] : 2']]
+[167] Dispatching process 1
+[170] Process 1 Timed out
+[170] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4, 2, 50, 2, 4] : 2']]
+[170] Dispatching process 1
+[173] Process 1 Timed out
+[173] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1, 2, 50, 2, 4] : 2']]
+[173] Dispatching process 1
+[174] Process 1 is blocking for 2 time units
+[174] Current Ready Queue: [[], [], []]
+[176] Process 1 unblocks
+[176] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [50, 2, 4] : 2']]
+[176] Dispatching process 1
+[179] Process 1 Timed out
+[179] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [47, 2, 4] : 2']]
+[179] Dispatching process 1
+[182] Process 1 Timed out
+[182] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [44, 2, 4] : 2']]
+[182] Dispatching process 1
+[185] Process 1 Timed out
+[185] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [41, 2, 4] : 2']]
+[185] Dispatching process 1
+[188] Process 1 Timed out
+[188] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [38, 2, 4] : 2']]
+[188] Dispatching process 1
+[191] Process 1 Timed out
+[191] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [35, 2, 4] : 2']]
+[191] Dispatching process 1
+[194] Process 1 Timed out
+[194] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [32, 2, 4] : 2']]
+[194] Dispatching process 1
+[197] Process 1 Timed out
+[197] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [29, 2, 4] : 2']]
+[197] Dispatching process 1
+[200] Process 1 Timed out
+[200] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [26, 2, 4] : 2']]
+[200] Dispatching process 1
+[203] Process 1 Timed out
+[203] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [23, 2, 4] : 2']]
+[203] Dispatching process 1
+[206] Process 1 Timed out
+[206] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [20, 2, 4] : 2']]
+[206] Dispatching process 1
+[209] Process 1 Timed out
+[209] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [17, 2, 4] : 2']]
+[209] Dispatching process 1
+[212] Process 1 Timed out
+[212] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [14, 2, 4] : 2']]
+[212] Dispatching process 1
+[215] Process 1 Timed out
+[215] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [11, 2, 4] : 2']]
+[215] Dispatching process 1
+[218] Process 1 Timed out
+[218] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [8, 2, 4] : 2']]
+[218] Dispatching process 1
+[221] Process 1 Timed out
+[221] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [5, 2, 4] : 2']]
+[221] Dispatching process 1
+[224] Process 1 Timed out
+[224] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [2, 2, 4] : 2']]
+[224] Dispatching process 1
+[226] Process 1 is blocking for 2 time units
+[226] Current Ready Queue: [[], [], []]
+[228] Process 1 unblocks
+[228] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4] : 2']]
+[228] Dispatching process 1
+[231] Process 1 Timed out
+[231] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1] : 2']]
+[231] Dispatching process 1
+[232] Process 1 is exiting
+[232] Current Ready Queue: [[], [], []]
+[0] Process 0 arrives
+[0] Current Ready Queue: [['Proccess 0, Arrive 0: [10, 3, 10, 4, 2] : 0'], [], []]
+[0] Dispatching process 0
+[3] Process 0 Timed out
+[3] Process 1 arrives
+[3] Current Ready Queue: [['Proccess 1, Arrive 3: [100, 2, 50, 2, 4] : 0'], ['Proccess 0, Arrive 0: [0, 10, 4, 2] : 1'], []]
+[3] Dispatching process 1
+[6] Process 1 Timed out
+[6] Current Ready Queue: [[], ['Proccess 0, Arrive 0: [0, 10, 4, 2] : 1', 'Proccess 1, Arrive 3: [-1, 50, 2, 4] : 1'], []]
+[6] Dispatching process 0
+[6] Process 0 is blocking for 4 time units
+[6] Current Ready Queue: [[], ['Proccess 1, Arrive 3: [-1, 50, 2, 4] : 1'], []]
+[6] Dispatching process 1
+[5] Process 1 is blocking for 2 time units
+[5] Current Ready Queue: [[], [], []]
+[7] Process 2 arrives
+[7] Process 1 unblocks
+[7] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 2, 2, 1, 3, 1, 2, 5, 1] : 0'], ['Proccess 1, Arrive 3: [4] : 1'], []]
+[7] Dispatching process 2
+[10] Process 2 is blocking for 2 time units
+[10] Process 0 unblocks
+[10] Current Ready Queue: [[], ['Proccess 1, Arrive 3: [4] : 1', 'Proccess 0, Arrive 0: [2] : 1'], []]
+[10] Dispatching process 1
+[11] Process 3 arrives
+[12] Process 2 unblocks
+[13] Process 1 Timed out
+[0] Process 0 arrives
+[0] Current Ready Queue: [['Proccess 0, Arrive 0: [10, 3, 10, 4, 2] : 0'], [], []]
+[0] Dispatching process 0
+[3] Process 0 Timed out
+[3] Process 1 arrives
+[3] Current Ready Queue: [['Proccess 1, Arrive 3: [100, 2, 50, 2, 4] : 0'], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2] : 1'], []]
+[3] Dispatching process 1
+[6] Process 1 Timed out
+[6] Current Ready Queue: [[], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2] : 1', 'Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1'], []]
+[6] Dispatching process 0
+[7] Process 2 arrives
+[9] Process 0 Timed out
+[9] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 2, 2, 1, 3, 1, 2, 5, 1] : 0'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[9] Dispatching process 2
+[11] Process 3 arrives
+[12] Process 2 is blocking for 2 time units
+[12] Current Ready Queue: [['Proccess 3, Arrive 11: [10, 20, 20] : 0'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[12] Dispatching process 3
+[14] Process 2 unblocks
+[15] Process 3 Timed out
+[15] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 1, 3, 1, 2, 5, 1] : 0'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1', 'Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[15] Dispatching process 2
+[17] Process 2 is blocking for 1 time units
+[17] Current Ready Queue: [[], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4] : 1', 'Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2']]
+[17] Dispatching process 1
+[18] Process 2 unblocks
+[20] Process 1 Timed out
+[20] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 1, 2, 5, 1] : 0'], ['Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2']]
+[20] Dispatching process 2
+[23] Process 2 is blocking for 1 time units
+[23] Current Ready Queue: [[], ['Proccess 3, Arrive 11: [7, 20, 20] : 1'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2']]
+[23] Dispatching process 3
+[24] Process 2 unblocks
+[26] Process 3 Timed out
+[26] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 5, 1] : 0'], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [4, 20, 20] : 2']]
+[26] Dispatching process 2
+[28] Process 2 is blocking for 5 time units
+[28] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [4, 20, 20] : 2']]
+[28] Dispatching process 0
+[31] Process 0 Timed out
+[31] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [94, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [4, 20, 20] : 2', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2']]
+[31] Dispatching process 1
+[33] Process 2 unblocks
+[34] Process 1 Timed out
+[34] Current Ready Queue: [['Proccess 2, Arrive 7: [1] : 0'], [], ['Proccess 3, Arrive 11: [4, 20, 20] : 2', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2']]
+[34] Dispatching process 2
+[35] Process 2 is exiting
+[35] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [4, 20, 20] : 2', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2']]
+[35] Dispatching process 3
+[38] Process 3 Timed out
+[38] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 3, 10, 4, 2] : 2', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [1, 20, 20] : 2']]
+[38] Dispatching process 0
+[39] Process 0 is blocking for 3 time units
+[39] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [91, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [1, 20, 20] : 2']]
+[39] Dispatching process 1
+[42] Process 1 Timed out
+[42] Process 0 unblocks
+[42] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [1, 20, 20] : 2', 'Proccess 1, Arrive 3: [88, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [10, 4, 2] : 2']]
+[42] Dispatching process 3
+[43] Process 3 is blocking for 20 time units
+[43] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [88, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [10, 4, 2] : 2']]
+[43] Dispatching process 1
+[46] Process 1 Timed out
+[46] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [10, 4, 2] : 2', 'Proccess 1, Arrive 3: [85, 2, 50, 2, 4] : 2']]
+[46] Dispatching process 0
+[49] Process 0 Timed out
+[49] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [85, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [7, 4, 2] : 2']]
+[49] Dispatching process 1
+[52] Process 1 Timed out
+[52] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [7, 4, 2] : 2', 'Proccess 1, Arrive 3: [82, 2, 50, 2, 4] : 2']]
+[52] Dispatching process 0
+[55] Process 0 Timed out
+[55] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [82, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [4, 4, 2] : 2']]
+[55] Dispatching process 1
+[58] Process 1 Timed out
+[58] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 4, 2] : 2', 'Proccess 1, Arrive 3: [79, 2, 50, 2, 4] : 2']]
+[58] Dispatching process 0
+[61] Process 0 Timed out
+[61] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [79, 2, 50, 2, 4] : 2', 'Proccess 0, Arrive 0: [1, 4, 2] : 2']]
+[61] Dispatching process 1
+[63] Process 3 unblocks
+[64] Process 1 Timed out
+[64] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 4, 2] : 2', 'Proccess 3, Arrive 11: [20] : 2', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4] : 2']]
+[64] Dispatching process 0
+[65] Process 0 is blocking for 4 time units
+[65] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [20] : 2', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4] : 2']]
+[65] Dispatching process 3
+[68] Process 3 Timed out
+[68] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [76, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [17] : 2']]
+[68] Dispatching process 1
+[69] Process 0 unblocks
+[71] Process 1 Timed out
+[71] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [17] : 2', 'Proccess 0, Arrive 0: [2] : 2', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4] : 2']]
+[71] Dispatching process 3
+[74] Process 3 Timed out
+[74] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [2] : 2', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [14] : 2']]
+[74] Dispatching process 0
+[76] Process 0 is exiting
+[76] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [73, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [14] : 2']]
+[76] Dispatching process 1
+[79] Process 1 Timed out
+[79] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [14] : 2', 'Proccess 1, Arrive 3: [70, 2, 50, 2, 4] : 2']]
+[79] Dispatching process 3
+[82] Process 3 Timed out
+[82] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [70, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [11] : 2']]
+[82] Dispatching process 1
+[85] Process 1 Timed out
+[85] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [11] : 2', 'Proccess 1, Arrive 3: [67, 2, 50, 2, 4] : 2']]
+[85] Dispatching process 3
+[88] Process 3 Timed out
+[88] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [67, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [8] : 2']]
+[88] Dispatching process 1
+[90] Process 4 arrives
+[91] Process 1 Timed out
+[91] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 2, 2, 1, 3, 1, 2, 5, 1] : 0'], [], ['Proccess 3, Arrive 11: [8] : 2', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2']]
+[91] Dispatching process 4
+[94] Process 4 is blocking for 2 time units
+[94] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [8] : 2', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2']]
+[94] Dispatching process 3
+[96] Process 4 unblocks
+[97] Process 3 Timed out
+[97] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 1, 3, 1, 2, 5, 1] : 0'], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [5] : 2']]
+[97] Dispatching process 4
+[99] Process 4 is blocking for 1 time units
+[99] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [5] : 2']]
+[99] Dispatching process 1
+[100] Process 4 unblocks
+[102] Process 1 Timed out
+[102] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 1, 2, 5, 1] : 0'], [], ['Proccess 3, Arrive 11: [5] : 2', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2']]
+[102] Dispatching process 4
+[105] Process 4 is blocking for 1 time units
+[105] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [5] : 2', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2']]
+[105] Dispatching process 3
+[106] Process 4 unblocks
+[108] Process 3 Timed out
+[108] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 5, 1] : 0'], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [2] : 2']]
+[108] Dispatching process 4
+[110] Process 4 is blocking for 5 time units
+[110] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4] : 2', 'Proccess 3, Arrive 11: [2] : 2']]
+[110] Dispatching process 1
+[113] Process 1 Timed out
+[113] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [2] : 2', 'Proccess 1, Arrive 3: [58, 2, 50, 2, 4] : 2']]
+[113] Dispatching process 3
+[115] Process 3 is exiting
+[115] Process 4 unblocks
+[115] Current Ready Queue: [['Proccess 4, Arrive 90: [1] : 0'], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4] : 2']]
+[115] Dispatching process 4
+[116] Process 4 is exiting
+[116] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4] : 2']]
+[116] Dispatching process 1
+[119] Process 1 Timed out
+[119] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [55, 2, 50, 2, 4] : 2']]
+[119] Dispatching process 1
+[122] Process 1 Timed out
+[122] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [52, 2, 50, 2, 4] : 2']]
+[122] Dispatching process 1
+[125] Process 1 Timed out
+[125] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [49, 2, 50, 2, 4] : 2']]
+[125] Dispatching process 1
+[128] Process 1 Timed out
+[128] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [46, 2, 50, 2, 4] : 2']]
+[128] Dispatching process 1
+[131] Process 1 Timed out
+[131] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [43, 2, 50, 2, 4] : 2']]
+[131] Dispatching process 1
+[134] Process 1 Timed out
+[134] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [40, 2, 50, 2, 4] : 2']]
+[134] Dispatching process 1
+[137] Process 1 Timed out
+[137] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [37, 2, 50, 2, 4] : 2']]
+[137] Dispatching process 1
+[140] Process 1 Timed out
+[140] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [34, 2, 50, 2, 4] : 2']]
+[140] Dispatching process 1
+[143] Process 1 Timed out
+[143] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [31, 2, 50, 2, 4] : 2']]
+[143] Dispatching process 1
+[146] Process 1 Timed out
+[146] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [28, 2, 50, 2, 4] : 2']]
+[146] Dispatching process 1
+[149] Process 1 Timed out
+[149] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [25, 2, 50, 2, 4] : 2']]
+[149] Dispatching process 1
+[152] Process 1 Timed out
+[152] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [22, 2, 50, 2, 4] : 2']]
+[152] Dispatching process 1
+[155] Process 1 Timed out
+[155] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [19, 2, 50, 2, 4] : 2']]
+[155] Dispatching process 1
+[158] Process 1 Timed out
+[158] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [16, 2, 50, 2, 4] : 2']]
+[158] Dispatching process 1
+[161] Process 1 Timed out
+[161] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [13, 2, 50, 2, 4] : 2']]
+[161] Dispatching process 1
+[164] Process 1 Timed out
+[164] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [10, 2, 50, 2, 4] : 2']]
+[164] Dispatching process 1
+[167] Process 1 Timed out
+[167] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [7, 2, 50, 2, 4] : 2']]
+[167] Dispatching process 1
+[170] Process 1 Timed out
+[170] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4, 2, 50, 2, 4] : 2']]
+[170] Dispatching process 1
+[173] Process 1 Timed out
+[173] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1, 2, 50, 2, 4] : 2']]
+[173] Dispatching process 1
+[174] Process 1 is blocking for 2 time units
+[174] Current Ready Queue: [[], [], []]
+[176] Process 1 unblocks
+[176] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [50, 2, 4] : 2']]
+[176] Dispatching process 1
+[179] Process 1 Timed out
+[179] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [47, 2, 4] : 2']]
+[179] Dispatching process 1
+[182] Process 1 Timed out
+[182] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [44, 2, 4] : 2']]
+[182] Dispatching process 1
+[185] Process 1 Timed out
+[185] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [41, 2, 4] : 2']]
+[185] Dispatching process 1
+[188] Process 1 Timed out
+[188] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [38, 2, 4] : 2']]
+[188] Dispatching process 1
+[191] Process 1 Timed out
+[191] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [35, 2, 4] : 2']]
+[191] Dispatching process 1
+[194] Process 1 Timed out
+[194] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [32, 2, 4] : 2']]
+[194] Dispatching process 1
+[197] Process 1 Timed out
+[197] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [29, 2, 4] : 2']]
+[197] Dispatching process 1
+[200] Process 1 Timed out
+[200] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [26, 2, 4] : 2']]
+[200] Dispatching process 1
+[203] Process 1 Timed out
+[203] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [23, 2, 4] : 2']]
+[203] Dispatching process 1
+[206] Process 1 Timed out
+[206] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [20, 2, 4] : 2']]
+[206] Dispatching process 1
+[209] Process 1 Timed out
+[209] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [17, 2, 4] : 2']]
+[209] Dispatching process 1
+[212] Process 1 Timed out
+[212] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [14, 2, 4] : 2']]
+[212] Dispatching process 1
+[215] Process 1 Timed out
+[215] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [11, 2, 4] : 2']]
+[215] Dispatching process 1
+[218] Process 1 Timed out
+[218] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [8, 2, 4] : 2']]
+[218] Dispatching process 1
+[221] Process 1 Timed out
+[221] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [5, 2, 4] : 2']]
+[221] Dispatching process 1
+[224] Process 1 Timed out
+[224] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [2, 2, 4] : 2']]
+[224] Dispatching process 1
+[226] Process 1 is blocking for 2 time units
+[226] Current Ready Queue: [[], [], []]
+[228] Process 1 unblocks
+[228] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4] : 2']]
+[228] Dispatching process 1
+[231] Process 1 Timed out
+[231] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1] : 2']]
+[231] Dispatching process 1
+[232] Process 1 is exiting
+[232] Current Ready Queue: [[], [], []]
+[0] Process 0 arrives
+[0] Current Ready Queue: [['Proccess 0, Arrive 0: [10, 3, 10, 4, 2]'], [], []]
+[0] Dispatching process 0
+[3] Process 0 Timed out
+[3] Process 1 arrives
+[3] Current Ready Queue: [['Proccess 1, Arrive 3: [100, 2, 50, 2, 4]'], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2]'], []]
+[3] Dispatching process 1
+[6] Process 1 Timed out
+[6] Current Ready Queue: [[], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [97, 2, 50, 2, 4]'], []]
+[6] Dispatching process 0
+[7] Process 2 arrives
+[9] Process 0 Timed out
+[9] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 2, 2, 1, 3, 1, 2, 5, 1]'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[9] Dispatching process 2
+[11] Process 3 arrives
+[12] Process 2 is blocking for 2 time units
+[12] Current Ready Queue: [['Proccess 3, Arrive 11: [10, 20, 20]'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[12] Dispatching process 3
+[14] Process 2 unblocks
+[15] Process 3 Timed out
+[15] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 1, 3, 1, 2, 5, 1]'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[15] Dispatching process 2
+[17] Process 2 is blocking for 1 time units
+[17] Current Ready Queue: [[], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[17] Dispatching process 1
+[18] Process 2 unblocks
+[20] Process 1 Timed out
+[20] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 1, 2, 5, 1]'], ['Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]']]
+[20] Dispatching process 2
+[23] Process 2 is blocking for 1 time units
+[23] Current Ready Queue: [[], ['Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]']]
+[23] Dispatching process 3
+[24] Process 2 unblocks
+[26] Process 3 Timed out
+[26] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 5, 1]'], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [4, 20, 20]']]
+[26] Dispatching process 2
+[28] Process 2 is blocking for 5 time units
+[28] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [4, 20, 20]']]
+[28] Dispatching process 0
+[31] Process 0 Timed out
+[31] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [94, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [4, 20, 20]', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2]']]
+[31] Dispatching process 1
+[33] Process 2 unblocks
+[34] Process 1 Timed out
+[34] Current Ready Queue: [['Proccess 2, Arrive 7: [1]'], [], ['Proccess 3, Arrive 11: [4, 20, 20]', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4]']]
+[34] Dispatching process 2
+[35] Process 2 is exiting
+[35] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [4, 20, 20]', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4]']]
+[35] Dispatching process 3
+[38] Process 3 Timed out
+[38] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [1, 20, 20]']]
+[38] Dispatching process 0
+[39] Process 0 is blocking for 3 time units
+[39] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [91, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [1, 20, 20]']]
+[39] Dispatching process 1
+[42] Process 1 Timed out
+[42] Process 0 unblocks
+[42] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [1, 20, 20]', 'Proccess 1, Arrive 3: [88, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [10, 4, 2]']]
+[42] Dispatching process 3
+[43] Process 3 is blocking for 20 time units
+[43] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [88, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [10, 4, 2]']]
+[43] Dispatching process 1
+[46] Process 1 Timed out
+[46] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [10, 4, 2]', 'Proccess 1, Arrive 3: [85, 2, 50, 2, 4]']]
+[46] Dispatching process 0
+[49] Process 0 Timed out
+[49] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [85, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [7, 4, 2]']]
+[49] Dispatching process 1
+[52] Process 1 Timed out
+[52] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [7, 4, 2]', 'Proccess 1, Arrive 3: [82, 2, 50, 2, 4]']]
+[52] Dispatching process 0
+[55] Process 0 Timed out
+[55] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [82, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [4, 4, 2]']]
+[55] Dispatching process 1
+[58] Process 1 Timed out
+[58] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 4, 2]', 'Proccess 1, Arrive 3: [79, 2, 50, 2, 4]']]
+[58] Dispatching process 0
+[61] Process 0 Timed out
+[61] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [79, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [1, 4, 2]']]
+[61] Dispatching process 1
+[63] Process 3 unblocks
+[64] Process 1 Timed out
+[64] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 4, 2]', 'Proccess 3, Arrive 11: [20]', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4]']]
+[64] Dispatching process 0
+[65] Process 0 is blocking for 4 time units
+[65] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [20]', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4]']]
+[65] Dispatching process 3
+[68] Process 3 Timed out
+[68] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [76, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [17]']]
+[68] Dispatching process 1
+[69] Process 0 unblocks
+[71] Process 1 Timed out
+[71] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [17]', 'Proccess 0, Arrive 0: [2]', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4]']]
+[71] Dispatching process 3
+[74] Process 3 Timed out
+[74] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [2]', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [14]']]
+[74] Dispatching process 0
+[76] Process 0 is exiting
+[76] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [73, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [14]']]
+[76] Dispatching process 1
+[79] Process 1 Timed out
+[79] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [14]', 'Proccess 1, Arrive 3: [70, 2, 50, 2, 4]']]
+[79] Dispatching process 3
+[82] Process 3 Timed out
+[82] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [70, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [11]']]
+[82] Dispatching process 1
+[85] Process 1 Timed out
+[85] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [11]', 'Proccess 1, Arrive 3: [67, 2, 50, 2, 4]']]
+[85] Dispatching process 3
+[88] Process 3 Timed out
+[88] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [67, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [8]']]
+[88] Dispatching process 1
+[90] Process 4 arrives
+[91] Process 1 Timed out
+[91] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 2, 2, 1, 3, 1, 2, 5, 1]'], [], ['Proccess 3, Arrive 11: [8]', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4]']]
+[91] Dispatching process 4
+[94] Process 4 is blocking for 2 time units
+[94] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [8]', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4]']]
+[94] Dispatching process 3
+[96] Process 4 unblocks
+[97] Process 3 Timed out
+[97] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 1, 3, 1, 2, 5, 1]'], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [5]']]
+[97] Dispatching process 4
+[99] Process 4 is blocking for 1 time units
+[99] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [5]']]
+[99] Dispatching process 1
+[100] Process 4 unblocks
+[102] Process 1 Timed out
+[102] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 1, 2, 5, 1]'], [], ['Proccess 3, Arrive 11: [5]', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4]']]
+[102] Dispatching process 4
+[105] Process 4 is blocking for 1 time units
+[105] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [5]', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4]']]
+[105] Dispatching process 3
+[106] Process 4 unblocks
+[108] Process 3 Timed out
+[108] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 5, 1]'], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [2]']]
+[108] Dispatching process 4
+[110] Process 4 is blocking for 5 time units
+[110] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [2]']]
+[110] Dispatching process 1
+[113] Process 1 Timed out
+[113] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [2]', 'Proccess 1, Arrive 3: [58, 2, 50, 2, 4]']]
+[113] Dispatching process 3
+[115] Process 3 is exiting
+[115] Process 4 unblocks
+[115] Current Ready Queue: [['Proccess 4, Arrive 90: [1]'], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4]']]
+[115] Dispatching process 4
+[116] Process 4 is exiting
+[116] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4]']]
+[116] Dispatching process 1
+[119] Process 1 Timed out
+[119] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [55, 2, 50, 2, 4]']]
+[119] Dispatching process 1
+[122] Process 1 Timed out
+[122] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [52, 2, 50, 2, 4]']]
+[122] Dispatching process 1
+[125] Process 1 Timed out
+[125] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [49, 2, 50, 2, 4]']]
+[125] Dispatching process 1
+[128] Process 1 Timed out
+[128] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [46, 2, 50, 2, 4]']]
+[128] Dispatching process 1
+[131] Process 1 Timed out
+[131] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [43, 2, 50, 2, 4]']]
+[131] Dispatching process 1
+[134] Process 1 Timed out
+[134] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [40, 2, 50, 2, 4]']]
+[134] Dispatching process 1
+[137] Process 1 Timed out
+[137] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [37, 2, 50, 2, 4]']]
+[137] Dispatching process 1
+[140] Process 1 Timed out
+[140] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [34, 2, 50, 2, 4]']]
+[140] Dispatching process 1
+[143] Process 1 Timed out
+[143] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [31, 2, 50, 2, 4]']]
+[143] Dispatching process 1
+[146] Process 1 Timed out
+[146] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [28, 2, 50, 2, 4]']]
+[146] Dispatching process 1
+[149] Process 1 Timed out
+[149] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [25, 2, 50, 2, 4]']]
+[149] Dispatching process 1
+[152] Process 1 Timed out
+[152] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [22, 2, 50, 2, 4]']]
+[152] Dispatching process 1
+[155] Process 1 Timed out
+[155] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [19, 2, 50, 2, 4]']]
+[155] Dispatching process 1
+[158] Process 1 Timed out
+[158] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [16, 2, 50, 2, 4]']]
+[158] Dispatching process 1
+[161] Process 1 Timed out
+[161] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [13, 2, 50, 2, 4]']]
+[161] Dispatching process 1
+[164] Process 1 Timed out
+[164] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [10, 2, 50, 2, 4]']]
+[164] Dispatching process 1
+[167] Process 1 Timed out
+[167] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [7, 2, 50, 2, 4]']]
+[167] Dispatching process 1
+[170] Process 1 Timed out
+[170] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4, 2, 50, 2, 4]']]
+[170] Dispatching process 1
+[173] Process 1 Timed out
+[173] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1, 2, 50, 2, 4]']]
+[173] Dispatching process 1
+[174] Process 1 is blocking for 2 time units
+[174] Current Ready Queue: [[], [], []]
+[176] Process 1 unblocks
+[176] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [50, 2, 4]']]
+[176] Dispatching process 1
+[179] Process 1 Timed out
+[179] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [47, 2, 4]']]
+[179] Dispatching process 1
+[182] Process 1 Timed out
+[182] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [44, 2, 4]']]
+[182] Dispatching process 1
+[185] Process 1 Timed out
+[185] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [41, 2, 4]']]
+[185] Dispatching process 1
+[188] Process 1 Timed out
+[188] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [38, 2, 4]']]
+[188] Dispatching process 1
+[191] Process 1 Timed out
+[191] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [35, 2, 4]']]
+[191] Dispatching process 1
+[194] Process 1 Timed out
+[194] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [32, 2, 4]']]
+[194] Dispatching process 1
+[197] Process 1 Timed out
+[197] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [29, 2, 4]']]
+[197] Dispatching process 1
+[200] Process 1 Timed out
+[200] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [26, 2, 4]']]
+[200] Dispatching process 1
+[203] Process 1 Timed out
+[203] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [23, 2, 4]']]
+[203] Dispatching process 1
+[206] Process 1 Timed out
+[206] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [20, 2, 4]']]
+[206] Dispatching process 1
+[209] Process 1 Timed out
+[209] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [17, 2, 4]']]
+[209] Dispatching process 1
+[212] Process 1 Timed out
+[212] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [14, 2, 4]']]
+[212] Dispatching process 1
+[215] Process 1 Timed out
+[215] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [11, 2, 4]']]
+[215] Dispatching process 1
+[218] Process 1 Timed out
+[218] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [8, 2, 4]']]
+[218] Dispatching process 1
+[221] Process 1 Timed out
+[221] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [5, 2, 4]']]
+[221] Dispatching process 1
+[224] Process 1 Timed out
+[224] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [2, 2, 4]']]
+[224] Dispatching process 1
+[226] Process 1 is blocking for 2 time units
+[226] Current Ready Queue: [[], [], []]
+[228] Process 1 unblocks
+[228] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4]']]
+[228] Dispatching process 1
+[231] Process 1 Timed out
+[231] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1]']]
+[231] Dispatching process 1
+[232] Process 1 is exiting
+[232] Current Ready Queue: [[], [], []]
+[0] Process 0 arrives
+[0] Current Ready Queue: [['Proccess 0, Arrive 0: [10, 3, 10, 4, 2]'], [], []]
+[0] Dispatching process 0
+[3] Process 0 Timed out
+[3] Process 1 arrives
+[3] Current Ready Queue: [['Proccess 1, Arrive 3: [100, 2, 50, 2, 4]'], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2]'], []]
+[3] Dispatching process 1
+[6] Process 1 Timed out
+[6] Current Ready Queue: [[], ['Proccess 0, Arrive 0: [7, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [97, 2, 50, 2, 4]'], []]
+[6] Dispatching process 0
+[7] Process 2 arrives
+[9] Process 0 Timed out
+[9] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 2, 2, 1, 3, 1, 2, 5, 1]'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[9] Dispatching process 2
+[11] Process 3 arrives
+[12] Process 2 is blocking for 2 time units
+[12] Current Ready Queue: [['Proccess 3, Arrive 11: [10, 20, 20]'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[12] Dispatching process 3
+[14] Process 2 unblocks
+[15] Process 3 Timed out
+[15] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 1, 3, 1, 2, 5, 1]'], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[15] Dispatching process 2
+[17] Process 2 is blocking for 1 time units
+[17] Current Ready Queue: [[], ['Proccess 1, Arrive 3: [97, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]']]
+[17] Dispatching process 1
+[18] Process 2 unblocks
+[20] Process 1 Timed out
+[20] Current Ready Queue: [['Proccess 2, Arrive 7: [3, 1, 2, 5, 1]'], ['Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]']]
+[20] Dispatching process 2
+[23] Process 2 is blocking for 1 time units
+[23] Current Ready Queue: [[], ['Proccess 3, Arrive 11: [7, 20, 20]'], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]']]
+[23] Dispatching process 3
+[24] Process 2 unblocks
+[26] Process 3 Timed out
+[26] Current Ready Queue: [['Proccess 2, Arrive 7: [2, 5, 1]'], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [4, 20, 20]']]
+[26] Dispatching process 2
+[28] Process 2 is blocking for 5 time units
+[28] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [94, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [4, 20, 20]']]
+[28] Dispatching process 0
+[31] Process 0 Timed out
+[31] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [94, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [4, 20, 20]', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2]']]
+[31] Dispatching process 1
+[33] Process 2 unblocks
+[34] Process 1 Timed out
+[34] Current Ready Queue: [['Proccess 2, Arrive 7: [1]'], [], ['Proccess 3, Arrive 11: [4, 20, 20]', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4]']]
+[34] Dispatching process 2
+[35] Process 2 is exiting
+[35] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [4, 20, 20]', 'Proccess 0, Arrive 0: [1, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4]']]
+[35] Dispatching process 3
+[38] Process 3 Timed out
+[38] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 3, 10, 4, 2]', 'Proccess 1, Arrive 3: [91, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [1, 20, 20]']]
+[38] Dispatching process 0
+[39] Process 0 is blocking for 3 time units
+[39] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [91, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [1, 20, 20]']]
+[39] Dispatching process 1
+[42] Process 1 Timed out
+[42] Process 0 unblocks
+[42] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [1, 20, 20]', 'Proccess 1, Arrive 3: [88, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [10, 4, 2]']]
+[42] Dispatching process 3
+[43] Process 3 is blocking for 20 time units
+[43] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [88, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [10, 4, 2]']]
+[43] Dispatching process 1
+[46] Process 1 Timed out
+[46] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [10, 4, 2]', 'Proccess 1, Arrive 3: [85, 2, 50, 2, 4]']]
+[46] Dispatching process 0
+[49] Process 0 Timed out
+[49] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [85, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [7, 4, 2]']]
+[49] Dispatching process 1
+[52] Process 1 Timed out
+[52] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [7, 4, 2]', 'Proccess 1, Arrive 3: [82, 2, 50, 2, 4]']]
+[52] Dispatching process 0
+[55] Process 0 Timed out
+[55] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [82, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [4, 4, 2]']]
+[55] Dispatching process 1
+[58] Process 1 Timed out
+[58] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [4, 4, 2]', 'Proccess 1, Arrive 3: [79, 2, 50, 2, 4]']]
+[58] Dispatching process 0
+[61] Process 0 Timed out
+[61] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [79, 2, 50, 2, 4]', 'Proccess 0, Arrive 0: [1, 4, 2]']]
+[61] Dispatching process 1
+[63] Process 3 unblocks
+[64] Process 1 Timed out
+[64] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [1, 4, 2]', 'Proccess 3, Arrive 11: [20]', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4]']]
+[64] Dispatching process 0
+[65] Process 0 is blocking for 4 time units
+[65] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [20]', 'Proccess 1, Arrive 3: [76, 2, 50, 2, 4]']]
+[65] Dispatching process 3
+[68] Process 3 Timed out
+[68] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [76, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [17]']]
+[68] Dispatching process 1
+[69] Process 0 unblocks
+[71] Process 1 Timed out
+[71] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [17]', 'Proccess 0, Arrive 0: [2]', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4]']]
+[71] Dispatching process 3
+[74] Process 3 Timed out
+[74] Current Ready Queue: [[], [], ['Proccess 0, Arrive 0: [2]', 'Proccess 1, Arrive 3: [73, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [14]']]
+[74] Dispatching process 0
+[76] Process 0 is exiting
+[76] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [73, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [14]']]
+[76] Dispatching process 1
+[79] Process 1 Timed out
+[79] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [14]', 'Proccess 1, Arrive 3: [70, 2, 50, 2, 4]']]
+[79] Dispatching process 3
+[82] Process 3 Timed out
+[82] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [70, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [11]']]
+[82] Dispatching process 1
+[85] Process 1 Timed out
+[85] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [11]', 'Proccess 1, Arrive 3: [67, 2, 50, 2, 4]']]
+[85] Dispatching process 3
+[88] Process 3 Timed out
+[88] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [67, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [8]']]
+[88] Dispatching process 1
+[90] Process 4 arrives
+[91] Process 1 Timed out
+[91] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 2, 2, 1, 3, 1, 2, 5, 1]'], [], ['Proccess 3, Arrive 11: [8]', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4]']]
+[91] Dispatching process 4
+[94] Process 4 is blocking for 2 time units
+[94] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [8]', 'Proccess 1, Arrive 3: [64, 2, 50, 2, 4]']]
+[94] Dispatching process 3
+[96] Process 4 unblocks
+[97] Process 3 Timed out
+[97] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 1, 3, 1, 2, 5, 1]'], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [5]']]
+[97] Dispatching process 4
+[99] Process 4 is blocking for 1 time units
+[99] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [64, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [5]']]
+[99] Dispatching process 1
+[100] Process 4 unblocks
+[102] Process 1 Timed out
+[102] Current Ready Queue: [['Proccess 4, Arrive 90: [3, 1, 2, 5, 1]'], [], ['Proccess 3, Arrive 11: [5]', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4]']]
+[102] Dispatching process 4
+[105] Process 4 is blocking for 1 time units
+[105] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [5]', 'Proccess 1, Arrive 3: [61, 2, 50, 2, 4]']]
+[105] Dispatching process 3
+[106] Process 4 unblocks
+[108] Process 3 Timed out
+[108] Current Ready Queue: [['Proccess 4, Arrive 90: [2, 5, 1]'], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [2]']]
+[108] Dispatching process 4
+[110] Process 4 is blocking for 5 time units
+[110] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [61, 2, 50, 2, 4]', 'Proccess 3, Arrive 11: [2]']]
+[110] Dispatching process 1
+[113] Process 1 Timed out
+[113] Current Ready Queue: [[], [], ['Proccess 3, Arrive 11: [2]', 'Proccess 1, Arrive 3: [58, 2, 50, 2, 4]']]
+[113] Dispatching process 3
+[115] Process 3 is exiting
+[115] Process 4 unblocks
+[115] Current Ready Queue: [['Proccess 4, Arrive 90: [1]'], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4]']]
+[115] Dispatching process 4
+[116] Process 4 is exiting
+[116] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [58, 2, 50, 2, 4]']]
+[116] Dispatching process 1
+[119] Process 1 Timed out
+[119] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [55, 2, 50, 2, 4]']]
+[119] Dispatching process 1
+[122] Process 1 Timed out
+[122] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [52, 2, 50, 2, 4]']]
+[122] Dispatching process 1
+[125] Process 1 Timed out
+[125] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [49, 2, 50, 2, 4]']]
+[125] Dispatching process 1
+[128] Process 1 Timed out
+[128] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [46, 2, 50, 2, 4]']]
+[128] Dispatching process 1
+[131] Process 1 Timed out
+[131] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [43, 2, 50, 2, 4]']]
+[131] Dispatching process 1
+[134] Process 1 Timed out
+[134] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [40, 2, 50, 2, 4]']]
+[134] Dispatching process 1
+[137] Process 1 Timed out
+[137] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [37, 2, 50, 2, 4]']]
+[137] Dispatching process 1
+[140] Process 1 Timed out
+[140] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [34, 2, 50, 2, 4]']]
+[140] Dispatching process 1
+[143] Process 1 Timed out
+[143] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [31, 2, 50, 2, 4]']]
+[143] Dispatching process 1
+[146] Process 1 Timed out
+[146] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [28, 2, 50, 2, 4]']]
+[146] Dispatching process 1
+[149] Process 1 Timed out
+[149] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [25, 2, 50, 2, 4]']]
+[149] Dispatching process 1
+[152] Process 1 Timed out
+[152] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [22, 2, 50, 2, 4]']]
+[152] Dispatching process 1
+[155] Process 1 Timed out
+[155] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [19, 2, 50, 2, 4]']]
+[155] Dispatching process 1
+[158] Process 1 Timed out
+[158] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [16, 2, 50, 2, 4]']]
+[158] Dispatching process 1
+[161] Process 1 Timed out
+[161] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [13, 2, 50, 2, 4]']]
+[161] Dispatching process 1
+[164] Process 1 Timed out
+[164] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [10, 2, 50, 2, 4]']]
+[164] Dispatching process 1
+[167] Process 1 Timed out
+[167] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [7, 2, 50, 2, 4]']]
+[167] Dispatching process 1
+[170] Process 1 Timed out
+[170] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4, 2, 50, 2, 4]']]
+[170] Dispatching process 1
+[173] Process 1 Timed out
+[173] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1, 2, 50, 2, 4]']]
+[173] Dispatching process 1
+[174] Process 1 is blocking for 2 time units
+[174] Current Ready Queue: [[], [], []]
+[176] Process 1 unblocks
+[176] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [50, 2, 4]']]
+[176] Dispatching process 1
+[179] Process 1 Timed out
+[179] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [47, 2, 4]']]
+[179] Dispatching process 1
+[182] Process 1 Timed out
+[182] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [44, 2, 4]']]
+[182] Dispatching process 1
+[185] Process 1 Timed out
+[185] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [41, 2, 4]']]
+[185] Dispatching process 1
+[188] Process 1 Timed out
+[188] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [38, 2, 4]']]
+[188] Dispatching process 1
+[191] Process 1 Timed out
+[191] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [35, 2, 4]']]
+[191] Dispatching process 1
+[194] Process 1 Timed out
+[194] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [32, 2, 4]']]
+[194] Dispatching process 1
+[197] Process 1 Timed out
+[197] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [29, 2, 4]']]
+[197] Dispatching process 1
+[200] Process 1 Timed out
+[200] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [26, 2, 4]']]
+[200] Dispatching process 1
+[203] Process 1 Timed out
+[203] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [23, 2, 4]']]
+[203] Dispatching process 1
+[206] Process 1 Timed out
+[206] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [20, 2, 4]']]
+[206] Dispatching process 1
+[209] Process 1 Timed out
+[209] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [17, 2, 4]']]
+[209] Dispatching process 1
+[212] Process 1 Timed out
+[212] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [14, 2, 4]']]
+[212] Dispatching process 1
+[215] Process 1 Timed out
+[215] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [11, 2, 4]']]
+[215] Dispatching process 1
+[218] Process 1 Timed out
+[218] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [8, 2, 4]']]
+[218] Dispatching process 1
+[221] Process 1 Timed out
+[221] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [5, 2, 4]']]
+[221] Dispatching process 1
+[224] Process 1 Timed out
+[224] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [2, 2, 4]']]
+[224] Dispatching process 1
+[226] Process 1 is blocking for 2 time units
+[226] Current Ready Queue: [[], [], []]
+[228] Process 1 unblocks
+[228] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [4]']]
+[228] Dispatching process 1
+[231] Process 1 Timed out
+[231] Current Ready Queue: [[], [], ['Proccess 1, Arrive 3: [1]']]
+[231] Dispatching process 1
+[232] Process 1 is exiting
+[232] Current Ready Queue: [[], [], []]

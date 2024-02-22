@@ -1,0 +1,60 @@
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]', 'Proccess 2, Arrive 8: [2]']
+[21] Dispatching process 1
+[121] Process 1 is exiting
+[121] Current Ready Queue: ['Proccess 2, Arrive 8: [2]']
+[121] Dispatching process 2
+[123] Process 2 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]', 'Proccess 2, Arrive 8: [2]']
+[21] Dispatching process 1
+[121] Process 1 is exiting
+[121] Current Ready Queue: ['Proccess 2, Arrive 8: [2]']
+[121] Dispatching process 2
+[123] Process 2 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]', 'Proccess 2, Arrive 8: [2]']
+[21] Dispatching process 1
+[121] Process 1 is exiting
+[121] Current Ready Queue: ['Proccess 2, Arrive 8: [2]']
+[121] Dispatching process 2
+[123] Process 2 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]', 'Proccess 2, Arrive 8: [2]']
+[21] Dispatching process 1
+[121] Process 1 is exiting
+[121] Current Ready Queue: ['Proccess 2, Arrive 8: [2]']
+[121] Dispatching process 2
+[123] Process 2 is exiting
+[1] Process 0 arrives
+[1] Current Ready Queue: ['Proccess 0, Arrive 1: [20]']
+[1] Dispatching process 0
+[7] Process 1 arrives
+[8] Process 2 arrives
+[21] Process 0 is exiting
+[21] Current Ready Queue: ['Proccess 1, Arrive 7: [100]', 'Proccess 2, Arrive 8: [2]']
+[21] Dispatching process 1
+[121] Process 1 is exiting
+[121] Current Ready Queue: ['Proccess 2, Arrive 8: [2]']
+[121] Dispatching process 2
+[123] Process 2 is exiting
